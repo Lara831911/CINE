@@ -1,0 +1,142 @@
+/* Navbar*/
+
+#navbar {
+     background: #065cb7;
+     color: #fff;
+     overflow: auto;
+   }
+
+  #navbar a {
+    color: #0b074b;
+  }
+
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+
+  #navbar ul li{
+    float: left;
+  }
+
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+    border-color: #065cb7;
+    background: #fff;
+    color: #065cb7;
+  }
+
+  /* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Menú */
+  html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1, h2, h3 {
+    padding-bottom: 20px;
+  }
+
+  p {
+    margin: 10px 0;
+    }
+  /* Clases General */
+
+  .container {
+    margin: auto;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+  .btn {
+    display: inline-bloc;
+    font-size: 18px;
+    color: #0b074b;
+    background: #fff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #bef503;
+  }
+
+  .btn-light {
+    background: #f4f4f4;
+    color: #0b074b;
+  }
+  /* Bienvenida */
+
+   #welcome {
+     background: url('../Imagenes/fondo.jpg') no-repeat center center/cover;
+     height: 600px;
+   }
+
+   #welcome .welcome-content {
+     color: #bef503;
+     text-align: justify;
+     padding-top: 170px;
+   }
+
+   #welcome .welcome-content h1 {
+     font-size: 60px;
+     line-height: 1.2em;
+   }
+
+   #welcome .container {
+     overflow: hidden !important;
+   }
+
+   /* Información Principal */
+
+#home-info {
+  height: 315px;
+}
+
+#home-info .info-content1 {
+  float: left;
+  width: 50%;
+  height: 120%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  background-color: #065cb7;
+}
+
+/* Trailer*/
+
+.video {
+  padding-top: 5%;
+}
+#fondo1 {
+    background: url('../Imagenes/fondo1.jpg') no-repeat center center/cover;
+}
+
+/* Promos*/
+
+.promos{
+  padding-top: 2%;
+}
